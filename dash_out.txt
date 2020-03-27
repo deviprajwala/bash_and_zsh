@@ -1,0 +1,14 @@
+Enter two numbers
+addition : 12
+subtraction : 8
+multiplication : 20
+division : 5
+Enter the number of times you want to run the function
+Hello devi
+Enter anything to print twice
+The sky is high
+The sky is high
+Hello devi
+Enter anything to print twice
+The rose is pink
+The rose is pink

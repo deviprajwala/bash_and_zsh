@@ -1,0 +1,46 @@
+#!/bin/dash
+#dash script for performing some basic math operations
+
+#val1=10
+#val2=5
+echo Enter two numbers
+read val1
+read val2
+
+ans=$(( val1+val2 ))
+echo "addition : $ans"
+#to perform addition
+
+ans=$(( val1-val2 ))
+echo "subtraction : $ans"
+#to perform subtraction
+
+ans=$(( val1*val2 ))
+echo "multiplication : $ans"
+#to perform multiplication
+
+ans=$(( val1/\val2 ))
+echo "division : $ans"
+#to perform division
+
+
+#function in dash
+print()
+{
+ echo "Hello $USER"
+ echo "Enter anything to print twice"
+ read a
+ echo $a
+ echo $a
+}
+
+echo "Enter the number of times you want to run the function"
+read count
+while [ $count -gt 0 ]
+#while loop in bash
+do
+  print
+  count=$(( $count-1 ))
+done
+
+
