@@ -1,0 +1,42 @@
+#!/bin/zsh
+#the script contains few basic math operations and the use of function
+
+#val1=10.
+#val2=3.
+echo "Enter two numbers to perform math operation"
+read val1
+read val2
+
+let ans="val1+val2"
+echo "addition: $ans"
+#to perform addition
+
+let ans="val1-val2"
+echo "subtraction: $ans"
+#to perform subtraction
+
+let ans="val1*val2"
+echo "multiplication: $ans"
+#to perform multiplication
+
+let ans="val1/val2"
+printf "division: %2.3f\n" $ans
+#to perform division
+
+#function can be defined in two formats which are as defined below
+function function1
+{
+  echo "This is function 1"
+}
+#format1
+
+function2()
+{
+  echo "This is function 2"
+}
+#format2
+
+function1
+#function call to function1
+function2
+#function call to function2

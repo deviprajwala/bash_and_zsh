@@ -1,0 +1,7 @@
+Enter two numbers to perform math operation
+addition: 103.0000000000
+subtraction: 97.0000000000
+multiplication: 300.0000000000
+division: 33.333
+This is function 1
+This is function 2
